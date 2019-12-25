@@ -1,3 +1,8 @@
-<project name="ant01">
-    <echo message="ant message" />
+<project name="ant01" default="init">
+    <target name="init">
+        <echo message="init" />
+    </target>
+    <target name="act01">
+        <echo message="act01" />
+    </target>
 </project>
