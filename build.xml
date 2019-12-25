@@ -1,0 +1,3 @@
+<project name="ant01">
+    <echo message="ant message" />
+</project>
