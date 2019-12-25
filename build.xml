@@ -6,4 +6,10 @@
     <target name="act01">
         <echo message="act01" />
     </target>
+    <target name="compile">
+        <mkdir dir="classes" />
+        <javac srcdir="src"
+            destdir="classes" />
+        <java classname="test.Sample01" classpath="classes" />
+    </target>
 </project>
