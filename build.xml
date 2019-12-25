@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="ant01" default="init">
+<project name="ant01" default="act">
     <target name="init">
         <echo message="init" />
     </target>
     <target name="act01">
         <echo message="act01" />
     </target>
-    <target name="compile">
+    <target name="act">
         <mkdir dir="classes" />
         <javac srcdir="src"
             destdir="classes" />
